@@ -37,14 +37,7 @@ const Sidenav = () => {
                     <AiOutlineMail size={20}/>
                     <span className='pl-4'>Contact</span>
                 </a>
-                <a href="https://www.linkedin.com/in/faramarz-aboutalebi-88335828a/" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-105 ease-in duration-200'  target='_blank' rel="noreferrer">
-                    <AiOutlineLinkedin size={20}/>
-                    <span className='pl-4'>Linkedin</span>
-                </a>
-                <a href="https://github.com/FaramarzAboutalebi" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-105 ease-in duration-200'  target='_blank' rel="noreferrer">
-                    <AiOutlineGithub size={20}/>
-                    <span className='pl-4'>Github</span>
-                </a>
+
 
             </div>
 
@@ -70,12 +63,7 @@ const Sidenav = () => {
                 <a href="#contact" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail size={20}/>
                 </a>
-                <a href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineLinkedin size={20}/>
-                </a>
-                <a href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineGithub size={20}/>
-                </a>
+
             </div>
         </div>
 

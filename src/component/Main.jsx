@@ -37,11 +37,15 @@ const Main = () => {
         />
 
             </h1>
-
+                
             <div className='flex justify-between pt-6 max-w-[200px] w-full pl-16'>
             <FaInstagram size={20} className='text-white cursor-pointer hover:scale-125 ease-in duration-200'/>
-            <FaLinkedin size={20} className='text-white cursor-pointer hover:scale-125 ease-in duration-200'/>
-            <FaGithub size={20} className='text-white cursor-pointer hover:scale-125 ease-in duration-200'/>
+            <a href="https://www.linkedin.com/in/faramarz-aboutalebi-88335828a/" target='_blank' rel="noreferrer">
+              <FaLinkedin size={20} className='text-white cursor-pointer hover:scale-125 ease-in duration-200'/>
+            </a>
+            <a href="ttps://github.com/FaramarzAboutalebi" target='_blank' rel="noreferrer">
+              <FaGithub size={20} className='text-white cursor-pointer hover:scale-125 ease-in duration-200'/>
+            </a>
             <FaTelegram size={20} className='text-white cursor-pointer hover:scale-125 ease-in duration-200'/>
             </div>
 
@@ -53,4 +57,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Main 
