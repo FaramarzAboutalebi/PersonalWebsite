@@ -12,8 +12,16 @@ const Projects = () => {
 
 
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItems img={cImg} title='SoftwareSystem-CompilerProject'/>
-        <ProjectItems img={vImg} title='Vigenere Cipher Encryption'/>
+        <ProjectItems img={cImg} 
+        title='SoftwareSystem-CompilerProject'
+        description='Impelementing a PL/0 compiler with C language'
+        viewLink='https://github.com/FaramarzAboutalebi/SoftwareSystem-CompilerProject.git'
+        />
+        <ProjectItems img={vImg} 
+        title='Vigenere Cipher Encryption'
+        description='Impelemented with python'
+        viewLink='https://github.com/FaramarzAboutalebi/VigenereCipherEncryption.git'
+        />
       </div>
 
     </div>
